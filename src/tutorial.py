@@ -49,7 +49,7 @@ while True:
         if timer_started:
             if time.time() - detection_stopped_time >= SECONDS_TO_RECORD_AFTER_DETECTION:
                 detection = False
-                timer_started = False
+                timer_started = Falsea
                 out.release()
                 print('Stop Recording!')
         else:
